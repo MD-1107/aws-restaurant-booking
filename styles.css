@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+.header {
+    min-height: 100vh;
+}
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.hero-section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.text-box {
+    text-align: center;
+}
+
+.restaurant-name {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.button1-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #00A2B3;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Gallery styles */
+.plog {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-row img {
+    width: 30%;
+    margin: 10px;
+}
+
+/* About Us styles */
+.aboutus {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.Row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Column-col {
+    flex-basis: 30%;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Column-col h3 {
+    font-size: 24px;
+    color: #00A2B3;
+}
+
+/* Contact Us styles */
+.contactd {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.icons .fa {
+    font-size: 36px;
+    margin: 10px;
+    color: #00A2B3;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vividh Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script type="text/javascript">
+    (function(d, m){
+        var kommunicateSettings = 
+            {"appId":"385d33eddf8273faca18b163e3184e4d5","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script>
+<body>
+  <form class="fp" method="post" action="/index.html">
+    <section class="header">
+      <div class="hero-section">
+        <img src="landing-image.jpeg" alt="Restaurant Image">
+        <div class="text-box">
+          <h1 class="restaurant-name">Vividh Restaurant</h1>
+          <p>Delicious Food in a Cozy Atmosphere</p>
+          </div>
+      </div>
+    </section>
+
+    <section class="plog">
+        <h1 id="gallery">GALLERY</h1>
+        <div class="image-row">
+            <img src="pasta.png" alt="Image 1">
+            <img src="chinese.png" alt="Image 2">
+            <img src="lasagna.png" alt="Image 3">
+            <img src="south_indian.png" alt="Image 4">
+            <img src="spring_roll.jpg" alt="Image 4">
+        </div>
+    </section>
+
+    <section class="aboutus">
+        <h1 id="aboutUs"> ABOUT US</h1>
+        <p>ComestiblesPlus aims to</p>
+        <div class="Row">
+            <div class="Column-col">
+                <h3>Donate</h3>
+                <p>Help the people in need and prevent wasting good quality goods.</p>
+           </div>
+
+           <div class="Column-col">
+            <h3>Volunteer</h3>
+            <p>Help the people by delivering the goods to be donated.</p>
+            </div>
+
+            <div class="Column-col">
+                <h3>Connect with People</h3>
+                <p>By Donating and Volunteering, connect with people and help them as well as the society.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactd">
+        <h1 id="contactus">CONTACT US</h1>
+        <div class="icons">
+            <i href="#" class="fa fa-facebook"> </i>
+            <i href="#" class="fa fa-instagram"> </i>
+            <i href="#" class="fa fa-twitter"> </i>
+            <i href="#" class="fa fa-linkedin"> </i>
+        </div>
+    </section>
+  </form>
+
+  <!-- Small screen display part -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function Menushow() {
+      navLinks.style.right = "0";
+    }
+
+    function Menuhide() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
+
